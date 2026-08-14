@@ -8,5 +8,5 @@ SendNotif = function(title, text, duration)
         })
     end)
 end
-SendNotif("warning", "script may timeout/crash because there's an issue with luraph", 5)
+SendNotif("no issues", "there is no longer issues with luraph, just a bit more laggy", 5)
 loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/b3eb88f529415bf4ba11197f32d533a0c8dc6dcb906154978e9f420de39f345e/download"))()
