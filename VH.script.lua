@@ -2,8 +2,8 @@
 SendNotif = function(title, text, duration)
   pcall(function()
       game:GetService("StarterGui"):SetCore("SendNotification", {
-          Title = title
-          Text = text
+          Title = title,
+          Text = text,
           Duration = duration
         })
     end)
